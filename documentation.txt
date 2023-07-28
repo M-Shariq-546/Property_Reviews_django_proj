@@ -1,0 +1,26 @@
+Working of reviewmodel
+to run the project :
+python manage.py runserver ["Port Number"]
+
+To add properties data like (pictures , title , description)
+
+go to https://localhost:portNumber/admin
+
+login with 
+username: admin
+password : admin
+
+##Adding a new Property Project in List 
+
+
+go to properties there and made changes as per your title description and image. and save it . Once you do this 
+
+https://localhost:portNumber/projects will show you all of your properties when you add a new at top and automatiacally connect that project with its details page
+
+
+##Adding a reviews and rating via csv file 
+
+To add reviews of properties with username , review and rating . First of all make sure that csv have three columns namely as "title" , "rating" and "review" in same sequence and spelling .
+then move to https://localhost:portNumber/upload_csv
+
+upload your desired csv there and submit . No message will be shown there . after 5 to 10 seconds just move back to https://localhost:portNumber/admin and feedbacks . after reaching there simply refresh the tab . all related data will be uploaded there and automatically shown on website.  
